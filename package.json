@@ -1,0 +1,43 @@
+{
+  "name": "roulette",
+  "version": "1.0.0",
+  "description": "roulette for vk.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env PORT=10888 react-scripts start",
+    "build": "react-scripts build"
+  },
+  "keywords": [],
+  "author": "LevTsypanov",
+  "license": "Creative Commons Zero v1.0 Universal",
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "react-hot-loader": "^4.9.0",
+    "react-scripts": "^3.1.2"
+  },
+  "dependencies": {
+    "@happysanta/vk-app-ui": "^0.1.30",
+    "@vkontakte/icons": "^1.16.1",
+    "@vkontakte/vk-connect": "^1.8.7",
+    "@vkontakte/vkui": "^3.2.0",
+    "babel-eslint": "^10.0.3",
+    "chalk": "^2.4.2",
+    "core-js": "^3.1.4",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-roulette": "0.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

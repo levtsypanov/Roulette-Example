@@ -1,0 +1,82 @@
+:root {
+  --panelheader_height_ios: 41px!important;
+}
+.Group--ios {
+  position: relative;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+  }
+  .Group--ios::before, .Group--ios::after {
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  height: 0px;
+  content: '';
+  background: #d7d8d9;
+  background: var(--separator_common);
+  }
+  .Group--ios .Header--ios {
+    margin: 10px 0;
+    position: relative;
+    }
+    .Group--ios{
+      padding: 0 20px 0px 20px;
+    }
+    .Group--ios {
+      line-height: 52px;
+      font-size: 19px;
+      margin-left: 2% ;
+      margin-right: 2%;
+      }
+.PanelHeader{
+  display: flex!important;
+	position: fixed!important;
+	width: 100vw!important;
+	z-index: 400!important;
+	background: #fff!important;
+	align-items: center!important;
+  border-bottom: 1px solid #e7e8ec!important;
+  line-height: 1.15!important;
+}
+.PanelHeader-content{
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif!important;
+	font-size: 13px!important;
+	font-weight: 500!important;
+	letter-spacing: -.08px!important;
+	color: #000!important;
+	margin: 12px 25px!important;
+	text-align: center!important;
+}
+.Header--level-secondary .Header__content {
+color: #000!important;
+line-height: 15px!important;
+text-transform: uppercase!important;
+font-size: 19px!important;
+font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif!important;
+line-height: 1.154!important;
+font-weight: 400!important;
+-webkit-font-smoothing: subpixel-antialiased!important;
+text-transform: capitalize!important;
+}
+.Header__in {
+  display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.Header--mode-secondary .Header__content {
+  color: #000!important;
+  line-height: 15px!important;
+  text-transform: uppercase!important;
+  font-size: 19px!important;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif!important;
+  line-height: 1.154!important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  text-transform: capitalize!important;
+  }
+.ButtonRoulette1{
+  margin-left: 40%;
+  margin-right: 40%;
+}
